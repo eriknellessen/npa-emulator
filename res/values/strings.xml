@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nPAEmulator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="aiddescription">aiddescription</string>
+    <string name="servicedesc">nPA Simulator</string>
+    
+    
+    <string name="rapdu_card_access">7f21 8201 6a7f 4e81 e25f 2901 0042 0d44 4554 4553 5444 5644 4530 3139 7f49 8194 060a 0400 7f00 0702 0202 0101 8181 809f 7ef6 8e15 3db4 fd10 84dd edbe ae84 2c55 6d41 9fcb 5ef6 21aa 3751 f0fc 0cfd 714f c0e7 6886 6b3f 44e2 725a f035 1a97 edb1 ba88 dfdd 9b4d 81d4 08fe 0763 346a 772c f646 1646 5c8f d971 b775 d2e1 3426 c5bc 1189 4795 c5ad 2c3e 4268 37f3 a101 9fe9 5124 ea5d 433e 906d 7993 4963 21ef cbdb c32d 93c0 680b 45f3 b8f6 4a5d afcf b982 0301 0001 5f20 0d44 4554 4553 5441 5444 4530 3139 7f4c 1206 0904 007f 0007 0301 0202 5305 0000 0001 105f 2506 0100 0003 0204 5f24 0601 0000 0402 045f 3781 808c b161 26a1 fdbb 8248 c88b db1f b119 9c3f 2538 56fe 1083 5f7b ff62 a30b d281 b8a1 f0fe 0381 a5b0 a426 51f7 7df7 2152 21f0 ede4 88e6 89ea 45ce e20b 19c7 b1d1 edb6 ac21 f340 8881 9f6f d5dc 3331 09e1 5a15 dff6 85a2 b69d 17d5 e23d afe3 63a8 e763 31cc 25b9 13fb 6ed8 30eb 457a d0a6 7396 a190 cae3 9cc6 c2e4 671e 6052 d3c2 2d</string>
+    <!--
+    <string name="rapdu_card_access"> c2e4 671e 6052 d3c2 2d</string>
+    -->
+    <string name="rapdu_file_not_found">6A 82</string>
+    <string name="rapdu_success">90 00</string>
+    <string name="capdu_read_binary">B0</string>
+
+</resources>
