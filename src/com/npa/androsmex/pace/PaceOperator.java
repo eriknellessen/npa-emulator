@@ -322,7 +322,8 @@ public class PaceOperator {
 		}
 		else {
 			sm = new SecureMessaging(crypto, kenc, kmac, new byte[crypto.getBlockSize()]);
-			npa.setSMObject(sm);
+			if(npa != null)
+				npa.setSMObject(sm);
 		}
 		
 		DynamicAuthenticationData dad_tpicc_car = new DynamicAuthenticationData();
