@@ -75,3 +75,10 @@ assembleDebug:
   artifacts:
     paths:
       - app/build/outputs/
+
+# Install project into local maven repository
+installToRepository:
+  interruptible: true
+  stage: build
+  script:
+    - ./gradlew uploadArchives

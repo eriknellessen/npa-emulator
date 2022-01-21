@@ -1,4 +1,16 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+group = 'com.npa.gui'
+version = '0.1.0'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: mavenLocal().getUrl()) 
+        }
+    }
+}
 
 android {
     compileSdkVersion 25
